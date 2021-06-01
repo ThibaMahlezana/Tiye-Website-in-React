@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900|Open+Sans:400,600");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.1;
+  color: #322e40;
+}
+
+h1 {
+  position: relative;
+  margin: 0 0 1rem;
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #322e40;
+}
+
+nav {
+  background-color: #8aaae5;
+}
+
+nav img {
+  width: 13rem;
+  margin: auto 0;
+}
+
+nav .nav-item {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto 0;
+}
+
+nav .nav-item {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto 0;
+}
+
+nav .navbar > .container > button {
+  background-color: #fff;
+}
+
+nav .navbar > .container > button i {
+  color: #8aaae5;
+}
+
+nav .navbar-nav button a {
+  color: #fff;
+  background-color: #ff8b74;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 5px 8px;
+}
+
+nav .navbar-nav button a:hover {
+  color: #fff;
+  opacity: 0.6;
+}
+
+nav .navbar-nav a {
+  margin-right: 1rem;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+  border-radius: 1.2rem;
+  border: 1px solid #8aaae5;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav .navbar-nav a:hover {
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  cursor: pointer;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
