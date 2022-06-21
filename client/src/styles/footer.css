@@ -1,0 +1,201 @@
+/**************************** footer *****************************/
+.footer {
+    background-color: #8aaae5;
+    height: 100%;
+  }
+  .footer-links a {
+    padding: 18px 10px;
+    margin-top: 60px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+    color: #fff;
+  }
+  
+  .footer-links a:hover {
+    background-color: #fff;
+    color: #8aaae5;
+  }
+  .footer-links i {
+    background-color: #ff8b74;
+    padding: 8px 12px;
+    border-radius: 50%;
+  }
+  .footer p {
+    color: #fff;
+  }
+  
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .current-year {
+    color: #322e40;
+    font-size: small;
+    font-weight: 600;
+  }
+
+  /**************************** animation *****************************/
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(247, 255, 252, 0.685);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+  }
+  
+  .circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+  }
+  
+  .circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+  }
+  
+  .circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+  }
+  
+  .circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+  }
+  
+  .circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+  }
+  
+  .circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+  }
+  
+  .circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+  }
+  
+  .circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+    }
+  
+    100% {
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+    }
+  }
+  
+  /**************************** Media queries *****************************/
+  
+  @media (min-width: 280px) {
+    .cd-headline.clip span {
+      font-size: 0.9rem;
+      margin: 5px 0;
+    }
+  }
+  @media (min-width: 360px) {
+    .cd-headline.clip span {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+  }
+  @media (min-width: 540px) {
+    .cd-headline.clip span {
+      font-size: 1.8rem;
+      margin: 5px 0;
+    }
+  }
+  @media (min-width: 576px) {
+    .home-content h3 {
+      font-size: 1.25rem;
+    }
+  
+    @media (min-width: 768px) {
+      .home-content h3 {
+        font-size: 1.5rem;
+      }
+      .cd-headline.clip span {
+        font-size: 1.1rem;
+        margin: 5px 0;
+        padding: 0.5em 0;
+      }
+    }
+    @media (min-width: 992px) {
+      .home-content h3 {
+        font-size: 1.75rem;
+      }
+      .cd-headline.clip span {
+        font-size: 30px;
+        margin: 5px 0;
+      }
+    }
+    @media (min-width: 1200px) {
+      .home-content h3 {
+        font-size: 1.35rem;
+      }
+    }
+  }
+  

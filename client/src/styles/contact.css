@@ -1,0 +1,62 @@
+/**************************** Contact Us *****************************/
+.contact {
+    height: 100%;
+    padding-bottom: 90px;
+    background-color: #ccd8e2;
+    position: relative;
+  }
+  
+  .contact h2 {
+    font-weight: 700;
+  }
+  .contact-icon {
+    background-color: #ff8b74;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-icon i {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .contact svg {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .social-links {
+    display: flex;
+    margin: 50px 0;
+    position: relative;
+    z-index: 2;
+  }
+  .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #322e40;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 0.2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  .social-links i {
+    color: #fff;
+  }
+  .social-links a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 10px 55px 5px rgba(50, 64, 77, 0.35);
+    opacity: 0.5;
+  }
+  

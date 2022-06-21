@@ -1,0 +1,200 @@
+/**************************** home *****************************/
+.home {
+    position: relative;
+    min-height: 91vh;
+    background-color: #8aaae5;
+    display: flex;
+    align-items: center;
+  }
+  .home::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url(../images/bg.jpeg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.1;
+  }
+  .social-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.75rem;
+    z-index: 96;
+  }
+  
+  .whatsapp-bar {
+    background-color: #25d366;
+    transition: all 0.3s;
+  }
+  .whatsapp-bar:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .youtube-bar {
+    background-color: #c4302b;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+  }
+  .youtube-bar a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .youtube-bar i,
+  .whatsapp-bar i {
+    font-size: x-large;
+    margin: 0 10px;
+    color: #fff;
+  }
+  .youtube-bar a {
+    color: #fff;
+  }
+  .whatsapp-bar,
+  .youtube-bar {
+    color: #fff;
+    padding: 5px;
+    border-radius: 2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  .home svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .home-content h3 {
+    color: #fff;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+  .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+  }
+  .cd-words-wrapper b.is-visible {
+    position: relative;
+  }
+  .no-js .cd-words-wrapper b {
+    opacity: 0;
+  }
+  .no-js .cd-words-wrapper b.is-visible {
+    opacity: 1;
+  }
+  .cd-headline.clip span {
+    display: inline-block;
+    padding: 0.2em 0;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .cd-headline.clip span b {
+    text-transform: uppercase;
+  }
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+  }
+  .cd-headline.clip .cd-words-wrapper::after {
+    /* line */
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #aebcb9;
+  }
+  .cd-headline.clip b {
+    opacity: 0;
+  }
+  .cd-headline.clip b.is-visible {
+    opacity: 1;
+  }
+  
+  .home-content button {
+    margin: 30px 0 0 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    letter-spacing: 0.0625rem;
+    background: #ff714c;
+    border: none;
+    padding: 1rem 1.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  .home-content button:hover {
+    -moz-box-shadow: 0 0 15px #fff;
+    -webkit-box-shadow: 0 0 15px #fff;
+    box-shadow: 0 0 15px #fff;
+    cursor: pointer;
+  }
+  
+  .home-content button a {
+    color: #fff;
+  }
+  .home-sec .button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    margin: 40px;
+    box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+    transition: 0.5s all ease-in-out;
+  }
+  .home-sec .button:hover {
+    cursor: pointer;
+    background: white;
+    color: #ff714c;
+    -webkit-animation: none;
+    animation: none;
+    text-decoration: none;
+  }
+  .button-float {
+    -webkit-animation: float 1.5s linear alternate infinite;
+    animation: float 1.5s linear alternate infinite;
+  }
+  
+  @-webkit-keyframes float {
+    50% {
+      transform: translateY(-px);
+    }
+    100% {
+      transform: translateY(-18px);
+    }
+  }
+  
+  @keyframes float {
+    50% {
+      transform: translateY(-px);
+    }
+    100% {
+      transform: translateY(-18px);
+    }
+  }
+  .home-sec {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .home-sec img {
+    width: 60%;
+  }
+  

@@ -1,0 +1,60 @@
+/**************************** portfolio *****************************/
+.portfolio {
+    height: 100%;
+    padding-bottom: 15rem;
+    background-color: #eff0f2;
+    position: relative;
+  }
+  .portfolio .buttons-sec {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-btns {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-btns li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+  .portfolio-btns li {
+    list-style: none;
+    margin: 10px 0 0 30px;
+    background: #ff714c;
+    color: #fff;
+    padding: 8px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 8px;
+  }
+  .portfolio-btns li:hover {
+    -moz-box-shadow: 5px 0 10px #808080;
+    -webkit-box-shadow: 5px 0 10px #808080;
+    box-shadow: 5px 0 10px #808080;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .img-box {
+    min-height: 50px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    float: left;
+    transition: all 0.3s;
+  }
+  .img-box:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 55px 5px rgba(50, 64, 77, 0.35);
+  }
+  .portfolio svg {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+  }
+  
