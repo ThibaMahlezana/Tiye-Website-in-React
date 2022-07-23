@@ -1,54 +1,54 @@
 /******************************** nav ***********************/
-nav {
+.nav {
     background-color: #8aaae5;
-  }
-  nav img {
-    width: 13rem;
-    margin: auto 0;
-  }
-  .nav-item {
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: white;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin: auto 0;
-  }
-  .navbar > .container > button {
-    background-color: #fff;
-  }
-  .navbar > .container > button i {
-    color: #8aaae5;
-  }
-  .navbar-nav button a {
-    color: #fff;
-    background-color: #ff8b74;
-    border-radius: 2rem;
-    text-transform: uppercase;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out 0s;
-    padding: 5px 8px;
-  }
-  .navbar-nav button a:hover {
-    color: #fff;
-    opacity: 0.6;
-  }
-  .navbar-nav a {
-    margin-right: 1rem;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-    text-decoration: none;
-    border-radius: 1.2rem;
-    border: 1px solid #8aaae5;
-    font-family: "Open Sans", sans-serif;
-  }
-  .navbar-nav a:hover {
-    -moz-box-shadow: 0 0 15px #ccc;
-    -webkit-box-shadow: 0 0 15px #ccc;
-    box-shadow: 0 0 15px #ccc;
-    cursor: pointer;
-    color: #fff;
-  }
-  
+}
+nav img {
+  width: 13rem;
+  margin: auto 0;
+}
+.nav-item {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto 0;
+}
+.navbar > .container > button {
+  background-color: #fff;
+}
+.navbar > .container > button i {
+  color: #8aaae5;
+}
+
+.navbar-nav button a {
+  color: #fff;
+  background-color: #ff8b74;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out 0s;
+  padding: 5px 8px;
+}
+.navbar-nav button a:hover {
+  color: #fff;
+  opacity: 0.6;
+}
+.navbar-nav a {
+  margin-right: 1rem;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+  border-radius: 1.2rem;
+  border: 1px solid #8aaae5;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-nav a:hover {
+  -moz-box-shadow: 0 0 15px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  cursor: pointer;
+  color: #fff;
+}
