@@ -50,7 +50,7 @@ export default function Portfolio() {
             </div>
             <div className="row justify-content-center">
               <div class="img-box systems col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-                <a href="#">
+                <a>
                   <img
                     src={system01}
                     alt="system 01"
@@ -59,7 +59,7 @@ export default function Portfolio() {
                 </a>
               </div>
               <div className="img-box systems col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-                <a href="#">
+                <a>
                   <img
                     src={system02}
                     alt="system 01"

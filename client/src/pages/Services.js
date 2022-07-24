@@ -12,6 +12,7 @@ import phpImage from "../images/php.svg";
 import javaImage from "../images/java.svg";
 import kotlinImage from "../images/kotlin.svg";
 import swiftImage from "../images/swift.svg"
+import { FcAndroidOs } from 'react-icons/fc';
 
 export default function Services() {
   return (
@@ -35,6 +36,7 @@ export default function Services() {
           </div>
           <div className="col-12 col-md-6 col-sm-4 col-lg-3">
             <div className="service-item">
+              <FcAndroidOs/>
               {/* <i
                 style="color: #a4c639"
                 class="fa fa-android"
