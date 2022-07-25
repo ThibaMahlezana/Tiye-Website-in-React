@@ -14,7 +14,6 @@ export default function About() {
           </div>
           <div className="col-lg-6">
             <h3>HELLO, WE ARE TIYE TECHNOLOGIES</h3>
-            <i class="fas fa-smile"></i>
             <p>
               <span className="about-tags">Design</span>
               <span className="about-tags">Develop</span>
@@ -26,15 +25,7 @@ export default function About() {
               companies to bring their software ideas to life.
             </p>
             <p className="about-quote">
-              <i
-                class="fa fa-quote-left fa-3x fa-pull-left fa-border"
-                aria-hidden="true"
-              ></i>
-              Ideas are the currency of the future. ― Kevin Roberts
-              <i
-                class="fa fa-quote-right fa-3x fa-pull-right fa-border"
-                aria-hidden="true"
-              ></i>
+              "Ideas are the currency of the future. ― Kevin Roberts"
             </p>
           </div>
           <div className="col-lg-6 d-none d-sm-block">

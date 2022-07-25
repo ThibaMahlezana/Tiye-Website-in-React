@@ -39,7 +39,7 @@ export default function Portfolio() {
                 </a>
               </div>
               <div className="img-box websites col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-                <a href="http://www.biztweak.co.za">
+                <a href="https://www.biztweak.org.za/">
                   <img
                     src={web03Image}
                     alt="Biztweak"

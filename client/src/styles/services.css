@@ -1,10 +1,8 @@
 /**************************** Services *****************************/
 
 .services {
-    height: 100%;
     background-color: #ccd8e2;
     position: relative;
-    padding-bottom: 15rem;
   }
   .service-item {
     background-color: #fff;
@@ -16,38 +14,25 @@
     align-items: center;
     transition: all 0.3s;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .service-item:hover {
     cursor: pointer;
     box-shadow: 0 10px 55px 5px rgba(50, 64, 77, 0.35);
   }
-  .service-item i {
-    font-size: 10rem;
-    margin-top: 10px;
-  }
   .service-item h3 {
     color: #808080;
     font-weight: 700;
   }
-  .service-item a.price {
-    font-family: inherit;
-    font-size: 1rem;
-    color: #e59f8a;
-    font-weight: bold;
-  }
   .service-item a.price:hover {
     text-decoration: none;
   }
-  .services svg {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-  }
+  
   .tech-item {
-    max-width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: #fff;
     overflow: hidden;
     padding: 5px;
@@ -63,6 +48,6 @@
   }
   
   .tech-item img {
-    width: 80px;
+    width: 60px;
   }
   

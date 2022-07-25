@@ -35,7 +35,8 @@
     cursor: pointer;
   }
   .youtube-bar {
-    background-color: #c4302b;
+    /* background-color: #c4302b; */
+    background-color: #fff;
     margin-bottom: 8px;
     transition: all 0.3s;
   }
@@ -51,7 +52,8 @@
     color: #fff;
   }
   .youtube-bar a {
-    color: #fff;
+    color: #c4302b;
+    text-decoration: none;
   }
   .whatsapp-bar,
   .youtube-bar {

@@ -11,8 +11,11 @@ import pythonImage from "../images/python.svg";
 import phpImage from "../images/php.svg";
 import javaImage from "../images/java.svg";
 import kotlinImage from "../images/kotlin.svg";
-import swiftImage from "../images/swift.svg"
-import { FcAndroidOs } from 'react-icons/fc';
+import swiftImage from "../images/swift.svg";
+import androidImage from "../images/android-os.svg";
+import appleImage from "../images/apple-logo.svg"; 
+import htmlImage from "../images/html.svg";
+import desktopImage from "../images/desktop.svg";
 
 export default function Services() {
   return (
@@ -36,42 +39,25 @@ export default function Services() {
           </div>
           <div className="col-12 col-md-6 col-sm-4 col-lg-3">
             <div className="service-item">
-              <FcAndroidOs/>
-              {/* <i
-                style="color: #a4c639"
-                class="fa fa-android"
-                aria-hidden="true"
-              ></i> */}
+              <img alt="android" src={androidImage} />
               <h3>Android App</h3>
             </div>
           </div>
           <div className="col-12 col-md-6 col-sm-4 col-lg-3">
             <div className="service-item">
-              {/* <i
-                style="color: #808080"
-                class="fa fa-apple"
-                aria-hidden="true"
-              ></i> */}
+              <img alt="ios app" src={appleImage} />
               <h3>iOS App</h3>
             </div>
           </div>
           <div className="col-12 col-md-6 col-sm-4 col-lg-3">
             <div className="service-item">
-              {/* <i
-                style="color: #ff8b74"
-                class="fa fa-html5"
-                aria-hidden="true"
-              ></i> */}
+              <img alt="website" src={htmlImage}/>
               <h3>Website</h3>
             </div>
           </div>
           <div className="col-12 col-md-6 col-sm-4 col-lg-3">
             <div className="service-item">
-              {/* <i
-                style="color: #8aaae5"
-                class="fa fa-code"
-                aria-hidden="true"
-              ></i> */}
+              <img alt="desktop software"src={desktopImage} />
               <h3>Desktop software</h3>
             </div>
           </div>

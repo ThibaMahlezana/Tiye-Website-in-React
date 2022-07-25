@@ -2,6 +2,9 @@
 .nav {
     background-color: #8aaae5;
 }
+.me-auto {
+  margin-left: 10%;
+}
 nav img {
   width: 13rem;
   margin: auto 0;
